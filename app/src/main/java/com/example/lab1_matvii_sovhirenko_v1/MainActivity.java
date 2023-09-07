@@ -2,7 +2,6 @@ package com.example.lab1_matvii_sovhirenko_v1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -20,11 +19,5 @@ public class MainActivity extends AppCompatActivity {
     public void buttonClick1(View v)
     {
         tvSecond.setText("THE TEXT WAS CHANGED SUCCESSFULLY");
-    }
-
-    public void buttonClick2(View v)
-    {
-        tvSecond.setText("THE COLOR WAS CHANGED SUCCESSFULLY");
-        tvSecond.setTextColor(Color.parseColor("#ff0000"));
     }
 }
